@@ -1,0 +1,9 @@
+On: [push]
+
+jobs:
+hola:
+runs-on: ubuntu-latest 
+steps:
+-name: Hola mi gente ya estamos listos
+runs: echo "Bienvenidos a despliegue automatizado"
+
