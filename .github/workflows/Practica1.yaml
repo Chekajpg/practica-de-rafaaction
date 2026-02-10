@@ -1,0 +1,23 @@
+#yaml
+
+name: Basic Workflow
+
+on:
+
+push:
+
+branches: basico-workflowa
+
+jobs:
+
+do-things:
+
+name: Do Things
+
+runs-on: ubuntu-latest
+
+steps:
+
+- name: Logrado
+
+run: echo "Logrado!"
